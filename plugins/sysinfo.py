@@ -12,7 +12,7 @@ from modules.helpers.decorators import humanbytes
 
 # FETCH SYSINFO
 
-@Client.on_message(commandpro(["Sysinfo", "/sysinfo", "sysinfo@{BOT_USERNAME}", "Shailendra", "Bot", "Admin"]) & ~filters.edited)
+@Client.on_message(commandpro(["Sysinfo", "/sysinfo", "sysinfo@{BOT_USERNAME}", "Alisha", "Bot", "Admin"]) & ~filters.edited)
 async def give_sysinfo(client, message):
     splatform = platform.system()
     platform_release = platform.release()
