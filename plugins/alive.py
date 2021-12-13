@@ -31,22 +31,22 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("hero") & filters.group & ~filters.edited)
+@Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/a1dd253ae11053bfebaa3.png",
+        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+💥 𝐇𝐨𝐢, 𝐈 𝐚𝐦 𝐀𝐥𝐢𝐬𝐡𝐚 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭
+   𝐕𝐜 𝐌𝐮𝐬𝐢𝐜 𝐩𝐥𝐚𝐲𝐞𝐫 𝐟𝐨𝐫 𝐘𝐨𝐮𝐫 𝐥𝐨𝐯𝐞𝐥𝐲 𝐆𝐫𝐨𝐮𝐩...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ʜᴇʀᴏ](https://t.me/mai_hu_hero)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴄʜᴀɴɴᴇʟ](https://t.me/modmenumaking)
-┣★ sᴜᴘᴘᴏʀᴛ : [ɢʀᴏᴜᴘ](https://t.me/yaaro_ki_yaarii)
-┣★ ᴏᴡɴᴇʀ   : [sʜᴀɪʟᴇɴᴅʀᴀ](https://t.me/shailendra34)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [𝐂𝐚𝐧𝐝𝐲 𝐐𝐮𝐞𝐞𝐧](https://t.me/candy_626)
+┣★ ᴜᴘᴅᴀᴛᴇs : [𝐂𝐡𝐚𝐧𝐧𝐞𝐥](https://t.me/Pubglovers_shayri_lovers)
+┣★ sᴜᴘᴘᴏʀᴛ : [𝐆𝐫𝐨𝐮𝐩](https://t.me/AlishaSupport)
+┣★ ᴏᴡɴᴇʀ   : [𝐕𝐞𝐧𝐨𝐦](https://t.me/Itz_Venom_xD)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Shailendra34) ...
+ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Itz_Venom_xD) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -60,16 +60,16 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["Hero", "/start", "/alive", "@shailendra34"]) & filters.private & ~filters.edited)
+@Client.on_message(commandpro(["Candy", "/start", "/alive", "@Itz_VeNom_xD"]) & filters.private & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/a1dd253ae11053bfebaa3.png",
+        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/yaaro_ki_yaarii")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/AlishaSupport")
                 ]
             ]
         ),
@@ -79,13 +79,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "/repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/c6e1041c6c9a12913f57a.png",
+        photo=f"https://telegra.ph/file/de138de8fd880becb9cf1.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://t.me/shailendra34")
+                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/AbhumanyuXMusic/HeroMusic")
                 ]
             ]
         ),
