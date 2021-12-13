@@ -1,4 +1,4 @@
-# @Shailendra34 @adityahalder
+
 
 import asyncio
 from pyrogram import Client, filters
